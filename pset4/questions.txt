@@ -1,0 +1,19 @@
+0.  GIF and BMP supports 256, PNG and JPEG supports 16 million. PNG also supports transparency
+1.  PNG and GIF
+2.  Lossless files are typically large, but preserve a perfect copy of the original. Lossy files lose quality, but are smaller
+3.  JPEG
+4.  When a FAT file is deleted, the pointer to it is removed, but the data still exists
+5.  Sanataize them by over writting them with zeros. 
+6.  stdint.h is a library that defines minimum and maximum values for interger type defs
+7.  They set the number of bits that they represent without padding
+8.  8, 32, 32, and 16
+9.  B(66), and M(78)
+10. bfSize is the size of the BMP file, biSize is the number of bytes required by the strut
+11. IF biheigh is Negative it indicates a top-down DIB, meaning it connot be compressed
+12. biBitCount
+13. fOpen may return null if no space exists to create the file or if there is a naming error
+14. the thrid argument in fread looks determines the number of elements you look at and you only want to look at 1.
+15. 0
+16. fseek sets he file position so that you can look at a specific place in a file
+17. The current position of the the read cursor in File I/O
+18. Rob Bowden

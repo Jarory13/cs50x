@@ -1,0 +1,61 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#navbar
+{
+  background: -webkit-linear-gradient(#33CCFF, white); 
+  background: -o-linear-gradient(#33CCFF, white);
+  background: -moz-linear-gradient(#33CCFF, white); 
+  background: linear-gradient(#33CCFF, white)
+ 
+}
+
+
+td
+{
+
+text-align: center;
+}
+
+table 
+{
+    table-layout: auto;
+    padding: 10;
+    border-spacing: 10px;
+    border-collapse: separate; 
+    width: 100%;
+    
+  
+}

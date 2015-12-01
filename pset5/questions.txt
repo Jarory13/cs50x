@@ -1,0 +1,16 @@
+0.  a pneumoconiosis caused by inhalation of very fine silicate or quartz dust.
+1.  getrusage returns the resource usage for a given "who" such as the Self, children of the resource, or a thread.
+2.  16
+3.  To ensure you get the exact information located at that variable. It's sort of a sanity check. 
+4.  Fgets the numerical value of a char in the file that fp is pointing at, making sure that value is not EOF. If it is a 
+    letter (or /n for new lines) it will store the numerical value in the char array word, thus casting it by its ASCII value, 
+    at a location in the array equal to the value of index. It ignore numerical characters and words longer than 45 Char. 
+    When it reaches the "/n" character it wil update the words counter and create a new line. It will then check for mispellings
+    updating the counter for mispesllings if it finds one. It then sets the index to 0 and begins to the process all over again
+    until fp == EOF. 
+5.  The use of fgetc can esnure alphanumeric chracters do not get passed in. Also going character by character lets you find EOF
+6.  This way the argument being passed into check and load is always the values at word and dictionary 
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO
